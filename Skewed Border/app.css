@@ -43,19 +43,19 @@ body {
     z-index: -1;
 }
 
-.container .box:nth-child(1)::before {
+.container:nth-child(1) .box::before {
     background: linear-gradient(315deg, #ff0057, #e64a19);
 }
 
-.container .box:nth-child(2)::before {
+.container:nth-child(2) .box::before {
     background: linear-gradient(315deg, #89ff00, #00bcd4);
 }
 
-.container .box:nth-child(3)::before {
+.container:nth-child(3) .box::before {
     background: linear-gradient(315deg, #e91e63, #5d02ff);
 }
 
-.container .box:nth-child(4)::before {
+.container:nth-child(4) .box::before {
     background: linear-gradient(315deg, #ff0000, #ffc107);
 }
 
