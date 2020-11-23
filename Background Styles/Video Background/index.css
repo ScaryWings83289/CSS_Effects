@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.vid-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-area{
+    background: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo{
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span{
+    color: #f5bb00;
+}
+
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.menu-area li.active a{
+    color: #f5bb00;
+}
+
+.menu-area li a:hover{
+    color: #f5bb00;
+}
+
+.banner-text{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    left: 25%;
+}
+
+.banner-text h2{
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+}
+
+.banner-text h2 span{
+    color: #f5bb00;
+}
+
+.banner-text p{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
